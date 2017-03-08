@@ -11,9 +11,9 @@ title                    : "Gregory Ferland"
 title_separator          : "-"
 name                     : "Gregory Ferland"
 description              : "A place to express my personal and professional interests."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : http://www.gmferland.com
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : gmferland/gmferland.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -77,30 +77,30 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  name             : Greg Ferland
+  avatar           : /assets/images/Greg Ferland Headshot.jpg
+  bio              : "Skier. Runner. Mainer. B.A. Mathematics Williams College '16."
+  location         : "Alta, UT"
+  email            : gmferland@gmail.com
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : greg.ferland.9
   foursquare       :
-  github           :
+  github           : gmferland
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : gmferland
   lastfm           :
-  linkedin         :
+  linkedin         : greg-ferland-4563b8b6
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : gmferland
   vine             :
   weibo            :
   xing             :
@@ -111,6 +111,7 @@ author:
 include:
   - .htaccess
   - _pages
+  - _posts
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -174,7 +175,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: US/Mountain
 
 
 # Plugins
@@ -239,8 +240,8 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
-      read_time: true
+      author_profile: false
+      read_time: false
       comments: # true
       share: true
       related: true
