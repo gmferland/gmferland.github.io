@@ -6,3 +6,26 @@ main:
     url: /blog/
   - title: "Running"
     url: /running/
+
+# blog sidebar
+blog:
+  - title: "Browse by Category"
+    children:
+      - title: "Running"
+      - title: "Math and CS"
+      - title: "General Interest"
+  - title: "Browse by Date"
+    children:
+      - title: "March 2017"
+
+# running sidebar
+run:
+  - title: "My Upcoming Races"
+    children:
+      - title: "Boilermaker 15k"
+        url: http://www.boilermaker.com/
+      - title: "Headwaters Relay"
+        url: http://montanamtnrec.com/HWRelay/
+      - title: "Beach to Beacon 10k"
+        url: https://www.beach2beacon.org/
+        

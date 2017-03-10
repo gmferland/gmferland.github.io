@@ -241,6 +241,8 @@ defaults:
     values:
       layout: single
       author_profile: false
+      sidebar:
+        nav: "blog"
       read_time: false
       comments: # true
       share: true
