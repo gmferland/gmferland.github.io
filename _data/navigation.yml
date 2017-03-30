@@ -17,6 +17,8 @@ blog:
   - title: "Browse by Date"
     children:
       - title: "March 2017"
+  - title: "Search by keyword"
+    url: /search/
 
 # running sidebar
 run:
