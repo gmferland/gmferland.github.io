@@ -78,11 +78,22 @@
     text-decoration: none;
 
     &:hover {
-      text-decoration: underline;
+      text-decoration: none;
 
       img {
         box-shadow: 0 0 10px rgba(#000, 0.25);
       }
+    }
+  }
+
+  li a {
+    color: $text-color;
+  } 
+
+  li a div {
+    border-bottom: 1px solid $dark-gray;
+    &:hover {
+      background-color: $lighter-gray;
     }
   }
 
