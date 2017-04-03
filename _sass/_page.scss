@@ -86,16 +86,9 @@
     }
   }
 
-  li a {
+  a h1 {
     color: $text-color;
   } 
-
-  li a div {
-    border-bottom: 1px solid $dark-gray;
-    &:hover {
-      background-color: $lighter-gray;
-    }
-  }
 
   dt {
     margin-top: 1em;

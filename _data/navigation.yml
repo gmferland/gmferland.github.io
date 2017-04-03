@@ -1,11 +1,11 @@
 # main links
 main:
   - title: "About"
-    url: /about/
+    url: /about.html/
   - title: "Blog"
-    url: /blog/
+    url: /blog.html/
   - title: "Running"
-    url: /running/
+    url: /running.html/
 
 # blog sidebar
 blog:
@@ -18,7 +18,7 @@ blog:
     children:
       - title: "March 2017"
   - title: "Search by keyword"
-    url: /search/
+    url: /search.html/
 
 # running sidebar
 run:
