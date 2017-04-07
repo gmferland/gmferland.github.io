@@ -1,3 +1,4 @@
+
 (function() {
     function displaySearchResults(results, store) {
         var searchResults = document.getElementById('search-results');
@@ -8,6 +9,7 @@
             for (var i = 0; i < results.length; i++) {
                 var item = store[results[i].ref];
                 appendString += '<li><a href="' + item.url + '"><h1>' + item.title + '</h1></a>';
+                appendString += '<h5>' + item.date + '</h5>';
                 appendString += '<p>' + item.content.substring(0, 150) + '...</p></li>';
             }
 

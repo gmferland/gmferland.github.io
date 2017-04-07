@@ -1,0 +1,24 @@
+<nav class="nav__list">
+  {% if page.sidebar.title %}<h3 class="nav__title" style="padding-left: 0;">{{ page.sidebar.title }}</h3>{% endif %}
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</label>
+
+  <form action="/search/" method="get">
+    <input type="search" id="search-box" name="query" placeholder="Search">
+  </form>
+  <ul class="nav__items">
+    <li>
+      <span class="nav__sub-title">Browse by Category</span>
+      <ul>
+        <li><a href="/categories/#running/">Running</a></li>
+      </ul>
+    </li>
+    <li>
+      <span class="nav__sub-title">Browse by Date</span>
+      <ul>
+        <li><a href="/2017/04/">April 2017</a></li>
+        <li><a href="/2017/03/">March 2017</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>

@@ -1,12 +1,8 @@
 ---
-layout: single
+layout: blog-section
 sidebar:
   nav: "blog"
 ---
-<form action="/search/" method="get">
-  <input type="search" id="search-box" name="query" placeholder="Search">
-</form>
-
 <ul id="search-results"></ul>
 
 <script>
@@ -15,6 +11,7 @@ sidebar:
       "{{ post.url | slugify }}": {
         "title": "{{ post.title | xml_escape }}",
         "author": "{{ post.author | xml_escape }}",
+        "date": "{{ post.date | date: '%B %d %Y' }}",
         "category": "{{ post.category | xml_escape }}",
         "content": {{ post.content | strip_html | strip_newlines | jsonify }},
         "url": "{{ post.url | xml_escape }}"

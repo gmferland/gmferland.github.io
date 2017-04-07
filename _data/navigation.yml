@@ -12,11 +12,15 @@ blog:
   - title: "Browse by Category"
     children:
       - title: "Running"
+        url: "/categories/#running"
       - title: "Math and CS"
       - title: "General Interest"
   - title: "Browse by Date"
     children:
+      - title: "April 2017"
+        url: "/2017/04"
       - title: "March 2017"
+        url: "/2017/03"
   - title: "Search by keyword"
     url: /search/
 
