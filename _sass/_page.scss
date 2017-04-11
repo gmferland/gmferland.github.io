@@ -74,6 +74,16 @@
     }
   }
 
+  ul li,
+  ol li {
+    margin-left: -1.8em;
+  }
+
+  li ul,
+  li ol {
+    margin-left: -1.8em;
+  } 
+
   a {
     text-decoration: none;
 

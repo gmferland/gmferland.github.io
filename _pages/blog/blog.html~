@@ -1,12 +1,9 @@
 ---
-layout: single
-permalink: blog.html
-sidebar:
-  nav: "blog"
+layout: blog-section
+permalink: /blog.html
 ---
 <ul>
   {% for post in site.posts limit: 10 %}
-  
   <li>
     <a href="{{ post.url }}">
       <h1>{{ post.title }}</h1>
@@ -16,3 +13,5 @@ sidebar:
   </li>
   {% endfor %}
 </ul>
+
+<p><a href="/blog/archive/">View all posts</a></p>
