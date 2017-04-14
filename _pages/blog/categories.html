@@ -2,3 +2,45 @@
 layout: blog-section
 permalink: /categories/
 ---
+<!-- Build an array of categories by searching through each post -->
+{% assign raw_cats = "" %}
+
+{% for post in site.posts %}
+  {% assign cat_string = post.categories | join: "," | append: "," %}
+  {% assign raw_cats = raw_cats | append: cat_string %}
+{% endfor %}
+
+{% assign raw_cat_array = raw_cats | split: "," | sort %}
+{% assign cats = "" %}
+
+<!-- Clean the category array to remove duplicated and empty strings -->
+{% for category in raw_cat_array %}
+  {% if category != "" %}
+    {% if cats == "" %}
+      {% assign cats = cats | append: category %}
+    {% endif %}
+    {% unless cats contains category %}
+      {% assign cats = cats | append: "," | append: category %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
+
+{% assign cat_array = cats | split: "," %}
+
+<!-- List all posts by category -->
+{% for category in cat_array %}
+  <h2 id="{{ category | downcase }}">{{ category | capitalize }}</h2>
+  <ul>
+  {% for post in site.posts %}
+    {% if post.categories contains category %}
+      <li>
+        <a href="{{ post.url }}">
+          <h1>{{ post.title }}</h1>
+        </a>
+        <h5>{{ post.date | date: "%B %d %Y" }}</h5>
+        {{ post.excerpt | truncatewords: 50 }}
+      </li>
+      {% endif %}
+  {% endfor %}
+  </ul>
+{% endfor %}

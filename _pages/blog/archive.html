@@ -12,16 +12,13 @@ permalink: /archive/
     <h2 id="{{ post.date | date: '%m%Y' }}">{{ new_date }}</h2>
     {% assign current_date = new_date %}
   {% endif %}
+  
+   <a href="{{ post.url }}">
+     <h1>{{ post.title }}</h1>
+   </a>
+   <h5>{{ post.date | date: "%B %d %Y" }}</h5>
+   {{ post.excerpt | truncatewords: 50 }}
 
-  <ul>
-    <li>
-      <a href="{{ post.url }}">
-        <h1>{{ post.title }}</h1>
-      </a>
-      <h5>{{ post.date | date: "%B %d %Y" }}</h5>
-      {{ post.excerpt | truncatewords: 50 }}
-    </li>
-  </ul>
 {% endfor %}
   
 
