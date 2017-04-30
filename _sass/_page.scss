@@ -113,6 +113,11 @@
     font-size: $type-size-6;
   }
 
+  table, td {
+    border: none;
+    text-align: center; 
+  }
+  
   .small {
     font-size: $type-size-6;
   }
