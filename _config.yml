@@ -175,7 +175,7 @@ sass:
 permalink: pretty
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: US/Mountain
+timezone: US/Eastern
 
 
 # Plugins
