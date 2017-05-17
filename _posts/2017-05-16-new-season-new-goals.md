@@ -1,0 +1,13 @@
+---
+type: posts
+title: "New Season, New Goals"
+date: 2017-05-16 22:00:00
+categories: running
+---
+Now that I'm home from Utah and the weather is getting nice it's time to start training in full force for Beach to Beacon and whatever races may come after that. I'm currently "coaching" myself using a mixture of workouts I did in college and ideas from Jack Daniels' Running Formula and the On Coaching podcast. I have a good idea of what works for me from my previous experience: what made me feel the most fit and what led me down the path to injury? I do also hope to coach others someday.
+
+At this point, with Beach to Beacon in mind, I've drawn up a calendar and broken down the next 12 weeks into training blocks. Right now I'm reaching the end of the base building phase where the main goal was building mileage. I plan on running between 40 and 50 miles per week this summer, which is the same as last summer and I think it worked well. This phase has also included a weekly tempo run and I'm just starting to add strides to improve my running economy. The next four or five weeks will have me running harder workouts to better my VO2 max and lactate threshold before shifting to a phase of 10k specific work and a taper leading up to the race.
+
+My first year running the Beach to Beacon, in 2015, I ran 38:06 on pretty much only easy running. Last year I was coming off a spring foot injury so I didn't even start running until June after taking about two months off. But I actually did some workouts and tried to peak for the race and ended up with a 36:16. It would be a lot to take another two minutes off my time this year, but I think I can certainly go under 36:00, maybe even sub-35:00.
+
+Looking beyond this summer, my main focus is indoor track. Should I end up living in Boston, I would have the opportunity to race almost as much as I did in college at BU, Harvard, and other schools that host open invitationals. Having gotten a late start on track in high school, and being injured throughout much of college, I think I have the most opportunity to improve on the track. And I also just want to prove to myself that I can run faster than I did in high school. That said, my goals are sub-4:30 in the mile and sub-2:00 in the 800. From now on, I hope to write a new blog post about my training every week to hold myself accountable to my goals and share what I learn through running.
