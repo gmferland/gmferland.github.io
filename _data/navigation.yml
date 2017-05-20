@@ -13,8 +13,6 @@ main:
 run:
   - title: "My Upcoming Races"
     children:
-      - title: "6/10 Battle Road Twilight 1500"
-        url: http://www.battleroadtc.org/twilight-series/twilight-meet-4/
       - title: "7/28-7/30 Headwaters Relay"
         url: http://montanamtnrec.com/HWRelay/
       - title: "8/5 Beach to Beacon 10k"

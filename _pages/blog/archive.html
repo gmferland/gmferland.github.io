@@ -17,7 +17,7 @@ permalink: /archive/
      <h1>{{ post.title }}</h1>
    </a>
    <h5>{{ post.date | date: "%B %d %Y" }}</h5>
-   {{ post.excerpt | truncatewords: 50 }}
+   <p>{{ post.excerpt | truncatewords: 50 }}</p>
 
 {% endfor %}
   
