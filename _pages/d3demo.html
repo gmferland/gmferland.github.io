@@ -43,8 +43,7 @@
         var nameKey = {w: "W", l: "L", era: "ERA", s_ip: "IP", s_h: "H", s_er: "ER", s_r: "R", s_bb: "BB", s_k: "K", s_sv: "SV", s_hbp: "HBP"};
       
         for (var i = 12; i < 23; i++) {
-          var name = x[i].nodeName;
-          p.push(nameKey[name]);
+          p.push(nameKey[x[i].nodeName]);
           p.push(x[i].nodeValue);
         }                  
         return p;                 
