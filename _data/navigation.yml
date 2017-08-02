@@ -4,8 +4,8 @@ main:
     url: /about/
   - title: "Education"
     url: /education/
-  - title: "Blog"
-    url: /blog/
+  # - title: "Blog"
+    # url: /blog/
   - title: "Running"
     url: /running/
 
