@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Gregory Ferland"
+title                    : "Greg Ferland"
 title_separator          : "-"
-name                     : "Gregory Ferland"
-description              : "A place to express my personal and professional interests."
+name                     : "Greg Ferland"
+description              : "Skier. Runner. Mainer. Software developer."
 url                      : http://www.gmferland.com
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : gmferland/gmferland.github.io
@@ -79,7 +79,7 @@ analytics:
 author:
   name             : Greg Ferland
   avatar           : /assets/images/Greg Ferland Headshot.jpg
-  bio              : "Skier. Runner. Mainer. B.A. Mathematics Williams College '16. University of Alta '17. Software Developer at Nevo Technologies.'"
+  bio              : "Skier. Runner. Mainer. Williams College '16. University of Alta '17. Software Developer at Nevo Technologies."
   location         : "Boston, MA"
   email            : gmferland@gmail.com
   uri              :
@@ -97,7 +97,7 @@ author:
   linkedin         : greg-ferland-4563b8b6
   pinterest        :
   soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
+  stackoverflow    : # 8447392/gmferland
   steam            :
   tumblr           :
   twitter          : gmferland

@@ -1,20 +1,4 @@
 # main links
 main:
-  - title: "About"
-    url: /about/
-  - title: "Education"
-    url: /education/
-  # - title: "Blog"
-    # url: /blog/
-  - title: "Running"
-    url: /running/
-
-# running sidebar
-run:
-  - title: "My Upcoming Races"
-    children:
-      - title: "7/28-7/30 Headwaters Relay"
-        url: http://montanamtnrec.com/HWRelay/
-      - title: "8/5 Beach to Beacon 10k"
-        url: https://www.beach2beacon.org/
-        
+  - title: "Blog"
+    url: /blog/
