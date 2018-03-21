@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Greg Ferland"
 title_separator          : "-"
 name                     : "Greg Ferland"
-description              : "Skier. Runner. Mainer. Software developer."
+description              : "Skier. Runner. Mainer. Software Developer."
 url                      : http://www.gmferland.com
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : gmferland/gmferland.github.io
@@ -70,9 +70,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google"
   google:
-    tracking_id          :
+    tracking_id          : "UA-116117867-1"
 
 
 # Site Author
