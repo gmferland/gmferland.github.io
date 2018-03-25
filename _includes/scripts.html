@@ -2,3 +2,8 @@
 
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
+{% if page.scripts %}
+  {% for fileName in page.scripts %}
+    <script src="/assets/js/{{fileName}}"></script>
+  {% endfor %}
+{% endif %}
